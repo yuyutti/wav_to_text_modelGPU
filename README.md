@@ -1,6 +1,7 @@
 # wav_to_text_modelGPU
 pyとGPU使って音声ファイルから字幕テキスト生成するコード GPUの手順もせっかくだから記録残しとく  
-  
+
+Python 3.12.1  
   
 ffmpeg経由でm3u8を取ってくる場合  
 ffmpeg -i "m3u8URL" -map 0:a -acodec pcm_s16le -ar 16000 -ac 1 audio.wav  
